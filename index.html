@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>World Wide Web 運作原理 - 課後複習測驗</title>
+    <title>HTML 結構與標籤 - 課後複習測驗</title>
     <style>
         :root {
             --primary-color: #4a90e2;
@@ -208,6 +208,39 @@
         ],
         correctIndex: 1,
         rationale: "HTML 全名為超文字標記語言，是由許多標籤 (tag) 組成，用來表達與結構化網頁內容的標註語言。"
+    },
+    {
+        question: "一個完整的 HTML 檔案，其最外層用來代表「整個文件的開始和結束」的是哪一組標籤？",
+        options: [
+            "<!doctype html> 與 </html>",
+            "<html> 與 </html>",
+            "<head> 與 </head>",
+            "<body> 與 </body>"
+        ],
+        correctIndex: 1,
+        rationale: "<html> 代表整個文件的開始，</html> 則代表整個文件的結束，所有內容（除了宣告外）都包在其中。"
+    },
+    {
+        question: "在 HTML 架構中，<head>...</head> 標籤之間主要存放的是什麼樣的內容？",
+        options: [
+            "網頁的主要內容，如文字、圖片和列表。",
+            "文件的資訊部份，例如頁面標題與後設資料。",
+            "網頁最底部的版權宣告與聯絡資訊。",
+            "專門用來顯示在網頁畫面上的加粗文字。"
+        ],
+        correctIndex: 1,
+        rationale: "<head> 區塊代表文件的資訊部份（Metadata），包含標題、編碼等不直接顯示在網頁主畫面上的資訊。"
+    },
+    {
+        question: "在 HTML 架構中，<body>...</body> 標籤之間存放的內容主要具備什麼特性？",
+        options: [
+            "代表文件的資訊部份，使用者在畫面上看不到。",
+            "僅用來宣告文件型態，確保瀏覽器正確解析。",
+            "代表文件的內容部份，包含所有會顯示在網頁上的資訊。",
+            "只能放置 <b> 或 <ul> 等格式標籤，不能放置純文字。"
+        ],
+        correctIndex: 2,
+        rationale: "<body> 標籤定義了網頁的主體，所有預計讓使用者在瀏覽器視窗中看到的文字、圖片、影片等內容都必須放在這裡。"
     },
     {
         question: "在標準的 HTML 檔案架構中，哪一個標籤專門用來定義「顯示在瀏覽器分頁上的頁面標題文字」？",
